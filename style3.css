@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: -200px;
+}
+.nav{
+    margin-top: 0px;
+    height: 40px;
+    font-size: small;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav2{
+      float: right;
+  }
+  .nav a:hover{
+      color: orangered;
+  }
+  .tittle1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+.container-1{
+    margin: 20px;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 40px;
+    background: #D7D7D7;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: grey;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+ .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 13px;
+    z-index: 1;
+    color: grey;
+  }
+  .nav3{
+    margin: 20px;
+    background-color: #D7D7D7;
+    width: 300px;
+    height: 300px;
+    line-height: 50px;
+  }
+  .danhmuc {
+      background-color: black;
+      height: 40px;
+      color: white;
+      text-align: center;
+  }
+  .nav3 p{
+      text-align: center;
+      cursor: pointer;
+  }
+  .nav3 p:hover{
+      background-color: grey;
+      color: orangered;
+  }
+  .product_item1{
+    margin: -320px 20px 20px 400px;
+    width: 210px;
+    display:block;
+    font-size: small;
+    line-height: 20px;
+    border: 2px solid #080808;
+  }
+  .product_item2{
+    margin: -420px 20px 20px 700px;
+    width: 210px;
+    height: 400px;
+    display:block;
+    font-size: small;
+    line-height: 20px;
+    border: 2px solid #080808;
+  }
+  .product_item1 img{
+      width: 205.5px;
+      height: 250px;
+  }
+  .product_item2 img{
+    width: 205.5px;
+    height: 250px;
+}
+.tittle{
+    color: black;
+    font-weight: bolder;
+}
+.tittle:hover{
+    color: orangered;
+}
+.subtittle{
+    color: grey;
+}
+.footer a{
+  color: white;
+  margin: 20px;
+  font-size: 13px;
+}
+.footer p{
+  color: grey;
+  font-size: 12px;
+  width: 280px;
+  margin: 10px;
+}
+.footer{
+  display: block;
+  position:relative;
+  background-color: black;
+  height: 230px;
+}
+.col1{
+  position:absolute;
+  margin-top: 17px ;
+  line-height: 17px;
+}
+.col2 {
+  /* margin: 0px 400px 100px; */
+  /* margin-bottom: 100px; */
+  display: block;
+  margin-left: 400px;
+  padding: 20px 30px;
+}
+.col2 p{
+  margin: 0px 20px;
+  cursor: pointer;
+  line-height: 32px;
+}
+.col2 p:hover{
+  color: orangered;
+}
+.col3 {
+  margin: 0px 650px;
+  margin-top: -199px;
+  width: 200px;
+}
+.col3 p{
+  margin: 0px 20px;
+  cursor: pointer;
+  line-height: 32px;
+}
+
+.col3 p:hover{
+  color: orangered;
+}
+.col4{
+  margin:0px 900px;
+  margin-top: -179px ;
+  width: max-content;
+}
+.col4 p{
+  margin: 0px 20px;
+  cursor: pointer;
+  line-height: 32px;
+}
+.col4 p:hover{
+  color: orangered;
+}
+.col5{
+  position:absolute;
+  top:17px;
+  right:50px;
+  height:50px;
+  width:100px;
+}
+.socialicon a{
+  margin: 10px 20px 0px 30px;
+  background-color: grey;
+  border-radius: 50px;
+}
+.socialicon a:hover{
+  background-color: orangered;
+}

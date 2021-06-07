@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Comfortaa', cursive;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: -200px;
+}
+.nav{
+  margin-top: 0px;
+  background-color:black;
+  height: 40px;
+  font-size: small;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav2{
+    float: right;
+}
+.nav a:hover{
+    color: orangered;
+}
+.prev,
+ .next{
+     position: absolute;
+     padding: 16px;
+     color:white;
+     font-weight: bold;
+     font-size: 40px;
+     border-radius:0 3px 3px 0 ;
+     cursor: pointer;
+     top: 50%;
+     margin-top: 60px;
+     transition: 0.6 ease;
+     user-select: none;
+     width: auto;
+ }
+ .next{
+     right: 0;
+ }
+ .prev:hover,
+ .next:hover{
+     color: black;
+ }
+ .dot{
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     background-color: black;
+     display: inline-block;
+ }
+ .dot:hover{
+     background-color: orangered;
+ }
+ /* thiết lập style cho slideshow container */
+ .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+ /* ẩn hình ảnh cho phần tử slideshow */
+  .mySlides {
+    display: none;
+  }
+ /* thiết kế nút mũi tên*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ /* thiết kế nút mũi tên next nằm phía bên phải */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+ /* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+  .prev:hover, .next:hover {
+    background-color: orangered;
+  }
+ /* thiết lập style  nút tròn điều khiển*/
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+ .active, .dot:hover {
+    background-color: #717171;
+  }
+ /* tạo hiệu ứng chuyển động fade */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .signature img{
+    margin: 20px 10px 10px 100px;
+    width: 200px;
+    border-radius: 40px;
+    transition: all .3s ease
+  }
+  .signature img:hover{
+    transform: scale(1.5)
+  }
+  .footer a{
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+}
+.footer p{
+    color: grey;
+    font-size: 12px;
+    width: 280px;
+    margin: 10px;
+}
+.footer{
+  margin-top: 65px;
+    display: block;
+    position:relative;
+    background-color: black;
+    height: 230px;
+}
+.col1{
+    position:absolute;
+    margin-top: 17px ;
+    line-height: 17px;
+}
+.col2 {
+    /* margin: 0px 400px 100px; */
+    /* margin-bottom: 100px; */
+    display: block;
+    margin-left: 400px;
+    padding: 20px 30px;
+}
+.col2 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.col2 p:hover{
+    color: orangered;
+}
+.col3 {
+    margin: 0px 650px;
+    margin-top: -199px;
+    width: 200px;
+}
+.col3 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+
+.col3 p:hover{
+    color: orangered;
+}
+.col4{
+    margin:0px 900px;
+    margin-top: -179px ;
+    width: max-content;
+}
+.col4 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.col4 p:hover{
+    color: orangered;
+}
+.col5{
+    position:absolute;
+    top:17px;
+    right:50px;
+    height:50px;
+    width:100px;
+}
+.socialicon a{
+    margin: 10px 20px 0px 30px;
+    background-color: grey;
+    border-radius: 50px;
+}
+.socialicon a:hover{
+    background-color: orangered;
+}

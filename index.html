@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Trang chủ</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="icon" href="/favicon (1).ico">
+</head>
+<body>
+   <div class="logo">
+      <img src="Ethereal.png" alt="">
+      </div>
+      <div class="nav">
+          <div class="nav1">
+          <ul>
+              <li><a style="text-decoration: none;" href="index.html">TRANG CHỦ</a></li>
+              <li><a style="text-decoration: none;" href="index2.html">SẢN PHẨM</a></li>
+              <li><a style="text-decoration: none;" href="index1.html">GIỚI THIỆU</a></li>
+              <li><a style="text-decoration: none;" href="index3.html">TIN TỨC</a></li>
+              <li><a style="text-decoration: none;" href="index4.html">LIÊN HỆ</a></li>
+              <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+            </ul>
+          </div>
+          <div class="nav2">
+              <ul>
+              <li><a style="text-decoration: none;" href=""><i class="fas fa-search"></i></a></li>
+              <li><a style="text-decoration: none;" href=""><i class="fas fa-user"></i></a></li>
+              <li><a style="text-decoration: none;" href=""><i class="fas fa-heart"></i></a></li>
+              <li><a style="text-decoration: none;" href=""><i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+          </div>
+      </div>
+       <!-- Thẻ Chứa Slideshow -->
+ <div class="slideshow-container">
+   <!-- Kết hợp hình ảnh và nội dung cho mội phần tử trong slideshow-->
+    <div class="mySlides fade">
+      <img src="https://theme.hstatic.net/1000370106/1000601259/14/slideshow_2.jpg?v=367" style="width:100%">
+    </div>
+   <div class="mySlides fade">
+      <img src="https://theme.hstatic.net/1000370106/1000601259/14/slideshow_1.jpg?v=367" style="width:100%">
+    </div>
+   <div class="mySlides fade">
+      <img src="https://theme.hstatic.net/1000370106/1000601259/14/slideshow_3.jpg?v=367" style="width:100%">
+    </div>
+   <!-- Nút điều khiển mũi tên-->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+ <!-- Nút tròn điều khiển slideshow-->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>
+      var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+  </script>
+  <hr color="#ECECEC" size="0.1px">
+  <!-- Signature -->
+  <div class="tittle">SẢN PHẨM NỔI BẬT</div>
+  <div class="signature">
+     <a href="">
+        <img src="https://product.hstatic.net/1000370106/product/11.1_1de76a834f3d43fa975dfffd828df957_master.jpg" alt="">
+     </a>
+     <a href="">
+        <img src="https://product.hstatic.net/1000370106/product/4.1_9aabc4649d6949379e18c52778fbc4cb_master.jpg" alt="">
+     </a>
+     <a href="">
+        <img src="https://product.hstatic.net/1000370106/product/4.1_7143819b4290477d8d3ab42da4d1602c_master.jpg" alt="">
+     </a>
+     <a href="">
+        <img src="https://product.hstatic.net/1000370106/product/1.1.2_c37d5f313de94b56ab85e9f604b67bd8_master.jpg" alt="">
+     </a>
+     <a href="">
+        <img src="https://product.hstatic.net/1000370106/product/3.2.1_8028331c8e464c269540431bc5f8e27c_master.jpg" alt="">
+     </a>
+     <a href="">
+      <img src="https://product.hstatic.net/1000370106/product/12.2.1_ed6d7bc8b01a4a80ae8fe959797a7f08_master.jpg" alt="">
+   </a>
+   <a href="">
+      <img src="https://product.hstatic.net/1000370106/product/1.1._319a6f9492a744edb4f0749d22d8b1b6_master.jpg" alt="">
+   </a>
+   <a href="">
+      <img src="https://product.hstatic.net/1000370106/product/9.1_0d6024d9756d4a6e80e49cc732866e74_master.jpg" alt="">
+   </a>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+   <div class="col1">
+       <a>VỀ CHÚNG TÔI</a>
+       <p>Khởi đầu hành trình vào năm 2019, Ethereal lấy cảm hứng sáng tạo từ nhu cầu sở hữu một tủ đồ đơn giản nhưng vẫn hiện đại của các cô gái. Đó là lí do vì sao ở Ethereal, bạn luôn có thể dễ dàng chọn cho mình một bộ trang phục đẹp - dù là để đến công sở hay đi cà phê dạo phố cùng bạn bè.</p>
+       <a>THỜI GIAN HOẠT ĐỘNG</a>
+       <p>Thứ Hai - Chủ Nhật: 8h30 - 22h00</p>
+   </div>
+   <div class="col2">
+       <a>MENU</a>
+       <p>Trang chủ</p>
+       <p>Cửa hàng</p>
+       <p>Giới thiệu</p>
+       <p>Tin tức</p>
+       <p>Trang chủ</p>
+   </div>
+   <div class="col3">
+       <a>DANH MỤC</a>
+       <p>Áo</p>
+       <p>Quần</p>
+       <p>Giày</p>
+       <p>Túi xách</p>
+       <p>Trang sức</p>
+   </div>
+   <div class="col4">
+       <a>CHÍNH SÁCH</a>
+       <p>Chính sách ưu đãi</p>
+       <p>Chính sách giao nhận</p>
+       <p>Chính sách bảo mật</p>
+       <p>Chính sách đổi trả</p>
+   </div>
+   <div class="col5">
+       <a>ĐĂNG KÍ</a>
+       <ul class="socialicon">
+           <li><a style="text-decoration: none;" href=""><i class="fab fa-facebook-f"></i></a></li>
+           <li><a style="text-decoration: none;" href=""><i class="fab fa-instagram"></i></a></li>
+           <li><a style="text-decoration: none;" href=""><i class="far fa-envelope"></i></a></li>
+           </ul>
+   </div>
+</body>
+</html>

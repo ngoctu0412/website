@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: -200px;
+}
+.nav{
+    margin-top: 0px;
+    background-color:black;
+    height: 40px;
+    font-size: small;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav2{
+      float: right;
+  }
+  .nav a:hover{
+      color: orangered;
+  }
+  .tittle1{
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px;
+      text-align: center;
+  }
+.column img{
+    width: 300px;
+    height: 200px;
+}
+.column1{
+    display: block;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}
+.column2{
+  margin-left: 540px;
+  margin-top: -243px;
+}
+.column3{
+  margin-left: 1000px;
+  margin-top: -243px;
+}
+.column1 p{
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.column2 p{
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.column3 p{
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 90px;
+}
+.column :hover{
+    color: orangered;
+}
+.tittle2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px; 
+}
+.founder{
+    margin-left: 350px;
+    font-size: 15px;
+}
+.founder p{
+    margin: 5px;
+    margin-left: 15px;
+}
+.cofounder{
+    margin-left: 820px;
+    margin-top: -335px;
+    font-size: 15px;
+}
+.cofounder p{
+    margin: 5px;
+    margin-left: -10px;
+}
+.tittle3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.dichvua a{
+    color: black;
+    font-size: 60px;
+}
+.dichvub a{
+    color: black;
+    font-size: 60px;
+}
+.dichvua p{
+    font-size: 15px;
+    width: max-content;
+}
+.dichvub p{
+    font-size: 15px;
+    width: max-content;
+}
+.dichvua{
+    position:relative;
+    margin: 150px;
+    margin-top: 20px;
+}
+.dichvu1{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:50px;
+    width:100px;
+}
+.dichvu1 a{
+    margin: 0px 100px;
+}
+.dichvu2{
+    height:50px;
+    width:100px;
+    margin:0px 500px;
+}
+.dichvu3{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:50px;
+    width:100px;
+}
+.dichvu3 p{
+    margin: 0px -30px;
+}
+.dichvub{
+    position:relative;
+    margin: 150px;
+    margin-top: 100px;
+}
+.dichvu4{
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin: 0px 100px;
+    height:50px;
+    width:100px;
+}
+.dichvu4 p{
+     margin: 0px -25px;
+}
+.dichvu5{
+    height:50px;
+    width:100px;
+    margin:0px 515px;
+}
+.dichvu5 p{
+    margin: 0px -40px;
+}
+.dichvu6{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:50px;
+    width:100px;
+    margin: 0px -20px;
+}
+.dichvu6 p{
+    margin: 0px -15px;
+}
+.dichvua a:hover{
+    color: orangered;
+}
+.dichvub a:hover{
+    color: orangered;
+}
+.footer a{
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+}
+.footer p{
+    color: grey;
+    font-size: 12px;
+    width: 280px;
+    margin: 10px;
+}
+.footer{
+    display: block;
+    position:relative;
+    background-color: black;
+    height: 230px;
+}
+.col1{
+    position:absolute;
+    margin-top: 17px ;
+    line-height: 17px;
+}
+.col2 {
+    /* margin: 0px 400px 100px; */
+    /* margin-bottom: 100px; */
+    display: block;
+    margin-left: 400px;
+    padding: 20px 30px;
+}
+.col2 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.col2 p:hover{
+    color: orangered;
+}
+.col3 {
+    margin: 0px 650px;
+    margin-top: -199px;
+    width: 200px;
+}
+.col3 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+
+.col3 p:hover{
+    color: orangered;
+}
+.col4{
+    margin:0px 900px;
+    margin-top: -179px ;
+    width: max-content;
+}
+.col4 p{
+    margin: 0px 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.col4 p:hover{
+    color: orangered;
+}
+.col5{
+    position:absolute;
+    top:17px;
+    right:50px;
+    height:50px;
+    width:100px;
+}
+.socialicon a{
+    margin: 10px 20px 0px 30px;
+    background-color: grey;
+    border-radius: 50px;
+}
+.socialicon a:hover{
+    background-color: orangered;
+}
+
